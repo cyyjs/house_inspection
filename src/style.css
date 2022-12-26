@@ -38,7 +38,6 @@ body {
   min-width: 320px;
   min-height: 100vh;
   padding: 10px;
-  background-color: #eff2f5;
 }
 
 h1 {
@@ -75,10 +74,19 @@ button:focus-visible {
   padding: 0px;
 }
 
+.check-box>.list>.item {
+  background-color: rgba(1, 1, 1, 0.1);
+}
+.van-field__control {
+  color: #fff!important;
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
+  }
+  body {
+    background-color: #eff2f5;
   }
   a:hover {
     color: #747bff;
@@ -86,9 +94,17 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+  .check-box>.list>.item {
+    background-color: #fff;
+  }
+  .van-divider {
+    color: #000!important;
+  }
+  .van-field__control {
+    color: #000!important;
+  }
 }
 .van-divider {
-  color: #000!important;
   border-color: #ccc!important;
   font-weight: bold;
 }

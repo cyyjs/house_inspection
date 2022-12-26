@@ -2,7 +2,7 @@
  * @Author: cyy
  * @Date: 2022-12-19 11:28:33
  * @LastEditors: cyy
- * @LastEditTime: 2022-12-19 15:15:58
+ * @LastEditTime: 2022-12-26 14:09:48
  * @Description: 
 -->
 <template lang="pug">
@@ -87,7 +87,6 @@ export default {
   }
   .list {
     &>.item {
-      background-color: #fff;
       margin-bottom: 10px;
       padding: 5px;
       border-radius: 5px;
